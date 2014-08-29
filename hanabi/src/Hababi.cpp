@@ -6,7 +6,6 @@ void Spark::draw(){
 }
 
 void Spark::setInitalCondition(float px, float py, float vx, float vy) {
-    origin.set(px, py);
     pos.set(px, py);
     vel.set(vx, vy);
 }
